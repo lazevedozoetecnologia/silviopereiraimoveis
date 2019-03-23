@@ -1,0 +1,64 @@
+#Criar usuario no Linux
+#Usuarios
+useradd bruna.borges
+useradd silvio.pereira
+useradd fernanda.fonseca
+useradd gustavo.pereira
+useradd sandra.pereira
+useradd eduardo.cunha
+
+#Senhas
+passwd bruna.borges
+Y9cb+$ay
+passwd silvio.pereira
+!X)Vj5&n
+passwd fernanda.fonseca
+A%]=Wa66
+passwd gustavo.pereira
+3U&eKw\j
+passwd sandra.pereira
+%GG%9q?Q
+passwd eduardo.cunha
+-w~Wu9h{
+
+#Criar usuario no Samba
+smbpasswd -a bruna.borges
+smbpasswd -a silvio.pereira
+smbpasswd -a fernanda.fonseca
+smbpasswd -a gustavo.pereira
+smbpasswd -a sandra.pereira
+smbpasswd -a eduardo.cunha
+
+
+#Criar grupo no Linux
+
+groupadd financeiro
+groupadd geral
+groupadd diretoria
+
+#Adicionar usuario a grupo no Linux
+#Financeiro
+gpasswd -a bruna.borges financeiro
+gpasswd -a silvio.pereira financeiro
+
+#Diretoria
+gpasswd -a silvio.pereira diretoria
+gpasswd -a fernanda.fonseca diretoria
+
+#Geral
+gpasswd -a bruna.borges geral
+gpasswd -a silvio.pereira geral
+gpasswd -a gustavo.pereira geral
+gpasswd -a fernanda.fonseca geral
+gpasswd -a eduardo.cunha geral
+gpasswd -a sandra.pereira geral
+
+#Criar grupo no Samba
+#Verificar Necessidade
+
+#Permissionar Pasta para Grupos no Linux
+
+chown -R root.geral /fileserver/*
+chmod -R 0770 /fileserver/*
+chown -R root.financeiro /fileserver/financeiro
+chown -R root.diretoria /fileserver/diretoria
