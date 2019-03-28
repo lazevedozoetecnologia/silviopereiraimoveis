@@ -22,7 +22,7 @@ echo "--------------------------------------------------------------" >> $LOG
 
 #CRIAÇÃO DA PASTA PARA BACKUP
 
-/bin/mkdir /mnt/hd/fileserver/$DATE/
+/bin/mkdir /mnt/hd/bkp_fileserver/$DATE/
 
 #FIM DA CRIAÇÃO DA PASTA PARA BACKUP
 
