@@ -1,4 +1,13 @@
 #Passwords
-SSID="Silvio Pereira Imóveis"
-WIFI="Silvi0@Im0biliaria"
+SSID="Silvio_Pereira_Imoveis"
+WIFI="Silvi0@Im0veis"
 ADMIN_Devices="Imob@100"
+
+#FS
+#IP: 192.168.15.4
+root/Imob@100
+
+#SGI
+#IP: 192.168.15.5
+Imobiliaria/3166
+SGI/123@SGI

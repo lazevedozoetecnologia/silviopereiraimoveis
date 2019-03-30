@@ -9,17 +9,17 @@ useradd eduardo.cunha
 
 #Senhas
 passwd bruna.borges
-Y9cb+$ay
+SwIzrk2X
 passwd silvio.pereira
-!X)Vj5&n
+139gwDI4
 passwd fernanda.fonseca
-A%]=Wa66
+a9CJNZ4f
 passwd gustavo.pereira
-3U&eKw\j
+1Gu0hlu8
 passwd sandra.pereira
-%GG%9q?Q
+8xV95NQz
 passwd eduardo.cunha
--w~Wu9h{
+7exGhq1V
 
 #Criar usuario no Samba
 smbpasswd -a bruna.borges
