@@ -6,6 +6,7 @@ useradd fernanda.fonseca
 useradd gustavo.pereira
 useradd sandra.pereira
 useradd eduardo.cunha
+useradd heloisa.pereira
 
 #Senhas
 passwd bruna.borges
@@ -20,6 +21,8 @@ passwd sandra.pereira
 8xV95NQz
 passwd eduardo.cunha
 7exGhq1V
+passwd heloisa.pereira
+6hgT87U6
 
 #Criar usuario no Samba
 smbpasswd -a bruna.borges
@@ -28,6 +31,7 @@ smbpasswd -a fernanda.fonseca
 smbpasswd -a gustavo.pereira
 smbpasswd -a sandra.pereira
 smbpasswd -a eduardo.cunha
+smbpasswd -a heloisa.pereira
 
 
 #Criar grupo no Linux
@@ -50,8 +54,9 @@ gpasswd -a bruna.borges geral
 gpasswd -a silvio.pereira geral
 gpasswd -a gustavo.pereira geral
 gpasswd -a fernanda.fonseca geral
-gpasswd -a eduardo.cunha geral
+gpasswd -a eduardo.cunha geral 
 gpasswd -a sandra.pereira geral
+gpasswd -a heloisa.pereira geral
 
 #Criar grupo no Samba
 #Verificar Necessidade
