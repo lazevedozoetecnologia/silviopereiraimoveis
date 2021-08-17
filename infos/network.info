@@ -3,9 +3,24 @@ SSID="Silvio_Pereira_Imoveis"
 WIFI="Silvi0@Im0veis"
 ADMIN_Devices="Imob@100"
 
+Claro OLD USER: CLARO_B99E96
+
+Claro CURRENT USER: CLARO_C39271
+PASS: Imob@100
+
 #FS
 #IP: 192.168.15.4
+b8:70:f4:4e:a3:b2
 root/Imob@100
+
+#DVR
+#IP: 192.168.15.3
+00:12:17:9e:43:a9
+admin/sil2020
+#Ports
+6164 / 37777
+
+admin/
 
 #SGI
 #IP: 192.168.15.5
